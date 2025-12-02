@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nssoc:SerializedObjectContainer>
+    <nssoc:mapper version="0.1">com.netledger.core.search.serializer.mapper.SearchMapper</nssoc:mapper>
+    <nssoc:definition>
+        <SearchDefinition>
+            <descriptor>
+                <recordType class="SearchRecordType">SEARCH_ENTRY</recordType>
+                <values>
+                    <Value fieldType="SearchFieldType" field="KEY_PACKAGE"/>
+                    <Value fieldType="SearchFieldType" field="KEY_SCRIPT_ID" clazz="string">customsearch5</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_DEFAULT_NAME" dependencyKey="LocaleDescriptor:SEARCH_TITLE#0" clazz="string">Logins</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_SEARCH_TYPE" clazz="string">LoginAudit</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PUBLIC" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_LIST" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PORTLET" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_MACHINE" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_REMINDER" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_SHOW_LINK" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PREFERRED_LIST" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PREFERRED_PORTLET" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PREFERRED_MACHINE" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PREFERRED_FORM" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PREFERRED_RESULTS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_VIEW_AS_REPORT" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_VIEW_AS_GRAPH" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_VIEW_AS_GRID" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_UNRESTRICTED" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="MAX_ROWS"/>
+                    <Value fieldType="SearchFieldType" field="FLAG_DISABLE_DRILL_DOWN" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_CURRENCY_RATE_TYPE"/>
+                    <Value fieldType="SearchFieldType" field="FLAG_HIDE_FILTER_DROPDOWNS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="KEY_DEFAULT_TEXT_FIELD_FILTER" clazz="string">STARTSWITH</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_AVAILABLE_AS_FEED" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_GLOBAL_EDIT" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_CSV" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_EXCEL" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_PDF" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_EMAIL_FROM"/>
+                    <Value fieldType="SearchFieldType" field="FIELD_EMAIL_SUBJECT"/>
+                    <Value fieldType="SearchFieldType" field="FIELD_EMAIL_BODY"/>
+                    <Value fieldType="SearchFieldType" field="FIELD_EMAIL_COMMENT"/>
+                    <Value fieldType="SearchFieldType" field="FLAG_TRIGGERED_ALERT" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_SCHEDULED_ALERT" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_SCHEDULED_ALERT_SUMMARIES" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_SEND_EMPTY_RESULTS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_ALERT_ALLOW_SUBSCRIBE" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_ALERT_INCLUDE_VIEW_LINK" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_HAS_TOTALS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_INCLUDE_PERIOD_END_TRANSACTIONS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_BULK_OP_CODE"/>
+                    <Value fieldType="SearchFieldType" field="FIELD_BULK_ENTRY_FORM_PARAMS"/>
+                    <Value fieldType="SearchFieldType" field="FLAG_BUILT_IN" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_OPTIMIZER_HINT"/>
+                    <Value fieldType="SearchFieldType" field="FLAG_SEND_ON_UPDATE" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_SHOW_AUDIT_TRAIL" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="KEY_AUDIENCE" dependencyKey="11999557:Audience:1" clazz="int">0</Value>
+                </values>
+            </descriptor>
+            <filters>
+                <type class="SearchElementType">SEARCH_FILTERS</type>
+            </filters>
+            <summaryFilters>
+                <type class="SearchElementType">SEARCH_SUMMARY_FILTERS</type>
+            </summaryFilters>
+            <availableFilterFields>
+                <type class="SearchElementType">SEARCH_AVAILABLE_FILTERS</type>
+            </availableFilterFields>
+            <returnFields>
+                <type class="SearchElementType">SEARCH_RETURN_FIELDS</type>
+                <values>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_DATE</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">1</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#2"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#3"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_EMAILADDRESS</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">2</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#4"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#5"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_USER</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">3</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#6"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#7"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_ROLE</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">4</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#8"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#9"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_IPADDRESS</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">5</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#10"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#11"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_STATUS</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">6</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#12"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#13"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_SECCHALLENGE</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">7</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#14"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#15"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_DETAIL</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">8</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#16"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#17"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_OAUTHACCESSTOKENNAME</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">9</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#18"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#19"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_OAUTHAPPNAME</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">10</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#20"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#21"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_RETURN_FIELD</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="FIELD_ALIAS" dependencyKey="bdr:any:null" clazz="string">LoginAudit_USERAGENT</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_INDEX" clazz="int">11</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#22"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_LABEL" dependencyKey="LocaleDescriptor:RETURN_FIELD#23"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_SUMMARY_TYPE"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FUNCTION"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA"/>
+                            <Value fieldType="SearchFieldType" field="FIELD_FORMULA_ERROR" clazz="boolean">false</Value>
+                            <Value fieldType="SearchFieldType" field="FIELD_ORDERED_BY_ALIAS"/>
+                        </values>
+                    </Record>
+                </values>
+            </returnFields>
+            <detailFields>
+                <type class="SearchElementType">SEARCH_DETAIL_FIELDS</type>
+            </detailFields>
+            <sortColumns>
+                <type class="SearchElementType">SEARCH_SORT_COLUMNS</type>
+                <values>
+                    <Record>
+                        <parent class="Collection" reference="../../.."/>
+                        <recordType class="SearchRecordType">SEARCH_SORT_COLUMN</recordType>
+                        <values>
+                            <Value fieldType="SearchFieldType" field="KEY_FIELD" dependencyKey="bdr:any:null" clazz="string">LoginAudit_DATE</Value>
+                            <Value fieldType="SearchFieldType" field="FILELD_ORDER" clazz="int">1</Value>
+                            <Value fieldType="SearchFieldType" field="FLAG_DESCENDING" clazz="boolean">false</Value>
+                        </values>
+                    </Record>
+                </values>
+            </sortColumns>
+            <alertRecipientFields>
+                <type class="SearchElementType">SEARCH_ALERT_RECIPIENTS_FIELDS</type>
+            </alertRecipientFields>
+            <alertRecipients>
+                <type class="SearchElementType">SEARCH_ALERT_RECIPIENTS</type>
+            </alertRecipients>
+        </SearchDefinition>
+    </nssoc:definition>
+    <nssoc:dependencies>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:SEARCH_TITLE#0" id="0">
+            <LocaleDescriptor>
+                <type>SEARCH_TITLE</type>
+                <key>0</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <string>Logins</string>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="Audience" uid="11999557:Audience:1" id="1">
+            <Record>
+                <recordType class="SearchRecordType">AUDIENCE</recordType>
+                <values>
+                    <Value fieldType="SearchFieldType" field="FLAG_AUDIENCE_ALL_CUSTOMERS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_AUDIENCE_ALL_EMPLOYEES" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_AUDIENCE_ALL_PARTNERS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_AUDIENCE_ALL_ROLES" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FLAG_AUDIENCE_ALL_VENDORS" clazz="boolean">false</Value>
+                    <Value fieldType="SearchFieldType" field="FIELD_AUDIENCE_ROLES" clazz="string"/>
+                </values>
+            </Record>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#2" id="2">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>2</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#3" id="3">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>3</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#4" id="4">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>4</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#5" id="5">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>5</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#6" id="6">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>6</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#7" id="7">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>7</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#8" id="8">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>8</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#9" id="9">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>9</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#10" id="10">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>10</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#11" id="11">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>11</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#12" id="12">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>12</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#13" id="13">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>13</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#14" id="14">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>14</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#15" id="15">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>15</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#16" id="16">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>16</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#17" id="17">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>17</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#18" id="18">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>18</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#19" id="19">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>19</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#20" id="20">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>20</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#21" id="21">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>21</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#22" id="22">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>22</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+        <nssoc:dependency type="LocaleDescriptor" uid="LocaleDescriptor:RETURN_FIELD#23" id="23">
+            <LocaleDescriptor>
+                <type>RETURN_FIELD</type>
+                <key>23</key>
+                <translations>
+                    <entry>
+                        <string>en</string>
+                        <null/>
+                    </entry>
+                </translations>
+            </LocaleDescriptor>
+        </nssoc:dependency>
+    </nssoc:dependencies>
+</nssoc:SerializedObjectContainer>

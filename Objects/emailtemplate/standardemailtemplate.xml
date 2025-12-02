@@ -1,0 +1,12 @@
+<emailtemplate scriptid="standardemailtemplate">
+  <addcompanyaddress>F</addcompanyaddress>
+  <addunsubscribelink>F</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Custom Transaction Email Template</name>
+  <recordtype>TRANSACTION</recordtype>
+  <subject>${companyInformation.companyName}: ${transaction@title} #${transaction.tranId}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>
