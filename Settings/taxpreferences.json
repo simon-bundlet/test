@@ -1,0 +1,22 @@
+{
+    "_eml_nkey_": "11999557~-5~3~N",
+    "applyroundingprecisionde": false,
+    "cashbasisreportingde": false,
+    "chargeoutofdistrictde": true,
+    "enabletaxlookupde": true,
+    "externalid": "",
+    "externaltaxformatde": "{label}",
+    "id": "",
+    "overrideroundingcustde": true,
+    "pagehelpertext": "",
+    "showtaxcodesummaryde": true,
+    "taxcode2de": "",
+    "taxcode4de": "5",
+    "taxcodeimportnonservicede": "",
+    "taxcodeimportservicede": "",
+    "taxcodelistincludede": "TAXITEMS",
+    "taxfractionunitde": "",
+    "taxroundingde": "OFF",
+    "taxroundinglevelde": "LINE",
+    "usetaxctrlacctfortaxtypede": true
+}
