@@ -1,0 +1,10 @@
+<centertab scriptid="custcentertab_bdlt_tab">
+  <allcustomers>F</allcustomers>
+  <allemployees>F</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <allvendors>F</allvendors>
+  <audslctrole></audslctrole>
+  <center>[scriptid=custcenter_bdlt_center]</center>
+  <label>BDLT Tab</label>
+</centertab>
